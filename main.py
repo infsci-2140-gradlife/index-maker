@@ -19,9 +19,10 @@ if not os.path.exists(index_dir):
 schema = Schema(
     doc_no=ID(stored=True),
     doc_content=TEXT(analyzer=StemmingAnalyzer(), stored=True),
+    doc_location=TEXT(phrase=False, analyzer=None),
     title=STORED(),
     description=STORED(),
-    doc_location=TEXT(analyzer=StemmingAnalyzer(), stored=True),
+    location=STORED(),
     date=DATETIME(stored=True),
     url=STORED(),
     is_recurring=STORED(),
@@ -35,10 +36,11 @@ for event in raw_events:
     writer.add_document(
         doc_no=f'doc{event["id"]}', 
         doc_content=f'${event["title"]} ${event["description"]}',
+        doc_location=event["location"],
         title=event['title'],
         description=event['description'],
-        doc_location=f'doc{event["location"]}',
         date=dateparser.parse(event['date']),
+        location=event['location'],
         url=event['link'],
         is_recurring=event['recurring'] != '',
         source=event['source']
