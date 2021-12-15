@@ -1,0 +1,92 @@
+[
+    {
+        "id": "-Mo0jn3fdS3JHYMY2tZF",
+        "date": "2021-11-12T05:00:00.000Z",
+        "location": "https://pitt.co1.qualtrics.com/jfe/form/SV_b9hyLxCXOuHu6kC",
+        "title": "An Upcycled IOT",
+        "recurring": "",
+        "source": "Gradlife Chrome Extension",
+        "link": "https://pitt.co1.qualtrics.com/jfe/form/SV_b9hyLxCXOuHu6kC",
+        "description": "Kristen williams is a PhD candidate at the HCI institute at CMU."
+    },
+    {
+        "id": "-Mo0y3HkeVPBp-EJTJcO",
+        "date": "2021-11-09T05:00:00.000Z",
+        "location": "Pitt Greensburg",
+        "title": "Pitt Greensburg campus walking tour",
+        "recurring": "",
+        "source": "Gradlife Chrome Extension",
+        "link": null,
+        "description": ""
+    },
+    {
+        "id": "-Mo0zTYn2yQH1-wNMN1x",
+        "date": "2021-11-12T05:00:00.000Z",
+        "location": "https://pitt.zoom.us",
+        "title": "Cool talk!",
+        "recurring": "",
+        "source": "Gradlife Chrome Extension",
+        "link": "https://pitt.zoom.us",
+        "description": ""
+    },
+    {
+        "id": "-Mo17osCckeZPZwkX0C3",
+        "date": "2021-11-12T05:00:00.000Z",
+        "location": "Information Sciences Building",
+        "title": "Lab meeting (Sustainable Social Computing)",
+        "recurring": "",
+        "source": "Gradlife Chrome Extension",
+        "link": null,
+        "description": ""
+    },
+    {
+        "id": "-Mo1L3HmUOG815mWvmxz",
+        "date": "2021-11-19T05:00:00.000Z",
+        "location": "asdfasd",
+        "title": "aasdfa",
+        "recurring": "",
+        "source": "Gradlife Chrome Extension",
+        "link": null,
+        "description": ""
+    },
+    {
+        "id": "-Mo25sHrH1xM5a00gLTb",
+        "date": "2021-11-18T04:23:00.000Z",
+        "location": "The Pete",
+        "title": "DJ Carlo Atendido at the Pete",
+        "recurring": "",
+        "source": "Gradlife Chrome Extension",
+        "link": null,
+        "description": "HE'll be therea"
+    },
+    {
+        "id": "-MoCA8HByXd5JgxZokjX",
+        "date": "2021-11-13T04:01:00.000Z",
+        "location": "https://pitt.zoom.us/meeting/register/tJArf-6orzosE9PRvzUTBeRT-wHg-HFbMvi6",
+        "title": "CAASI Allegheny County Policing Project",
+        "recurring": "",
+        "source": "Gradlife Chrome Extension",
+        "link": "https://pitt.zoom.us/meeting/register/tJArf-6orzosE9PRvzUTBeRT-wHg-HFbMvi6",
+        "description": "Did you know that there are about 130 police departments in Allegheny County, each with its own contracts governing police-government-citizen interactions? This talk will discuss how the Grief to Action initiative at the Center for Analytical Approaches to Social Innovation (CAASI) spent the year after the summer of 2020 building a data platform to navigate this hyperfragmentation of policing. Led by GSPIA & SCI students, our volunteer team created a platform with a searchable library of almost 100 police contracts, an interactive map of Allegheny County police departments, and a guide to help citizens navigate the complexity of filing misconduct complaints.\n\nPresenters: Sera Linardi and CAASI Grief to Action team"
+    },
+    {
+        "id": "-Mojt7pO924YsiGd9bM3",
+        "date": "2021-11-23T15:00:00.000Z",
+        "location": "https://pitt.co1.qualtrics.com/jfe/form/SV_byGuBAHZzQ2hYnY",
+        "title": "Proposal Defense: Xian Teng (\"DISCOVERY AND INTERPRETABILITY OF SPURIOUS ASSOCIATIONS IN DATADRIVEN DECISIONS\")",
+        "recurring": "",
+        "source": "Gradlife Chrome Extension",
+        "link": "https://pitt.co1.qualtrics.com/jfe/form/SV_byGuBAHZzQ2hYnY",
+        "description": "Decision making based on big data analysis is ubiquitous in current society. A critical issue in\ndata-driven decision making is the possibility that people intentionally or unintentionally obtain a\nspurious correlation from data and render it a causal interpretation, thus making\ncounterproductive decisions to society. A well-known phenomenon is Simpson\u2019s Paradox (SP)\nwhereby the direction of an association at the population-level may be different if considering\nthe subgroups comprising that population. For instance, an online platform seeking to test a\nmisinformation debunking application and observed from data that proportionally more people\nwho used this tool (treated group) expressed disbelief in falsehood compared to those who did\nnot (control group). It would be unsafe to immediately conclude that this tool is effective, as a\npotential reason might be that this tool attracted a large portion of educated people \u2013 those who\nare naturally resilient to falsehood \u2013 creating a seemingly optimistic yet distorted association\nbetween tool usage and disbelief in falsehood (called \u201cconfounding\u201d). Furthermore, even though\nsome users benefited from using this tool, there might exist a subgroup of vulnerable users\nwhose debunking capability were weakened (i.e., \u201cheterogeneity of treatment effects\u201d). In this\ncase, a decision made from spurious correlation might widen the inequality in online space.\nMy dissertation seeks to address confounded non-homogeneous associations in observational\nstudies as well as to support people to make fair and equity-oriented decision making. In\nparticular, I will develop automated approaches to detect subpopulations that differ in the\nmagnitude of their treatment effects wherein confounding effect is eliminated. It includes a\nrigorous assessment schema to measure confounder imbalance, strength of causal effects as\nwell as uncertainty for an arbitrary subpopulation. Furthermore, I will design a novel visualization\nto represent SP phenomenon, assisting decision-makers in three actions: understanding,\nmeasuring and identification, in their data-driven decision-making process."
+    },
+    {
+        "id": "-MqG3EJz76L5MTupNiw1",
+        "date": "2022-01-02T03:00:00.000Z",
+        "location": "https://netflix.com",
+        "title": "Movie night at Ben's",
+        "recurring": "",
+        "source": "Gradlife Chrome Extension",
+        "link": "https://netflix.com",
+        "description": "Come watch a movie with me as we ring in the new year!"
+    }
+]

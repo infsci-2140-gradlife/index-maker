@@ -1,14 +1,15 @@
 import json
 import os
 from whoosh import index
-from whoosh.fields import Schema, TEXT, ID, STORED
+import dateparser
+from whoosh.fields import Schema, TEXT, ID, DATETIME, STORED
 from whoosh.analysis import StemmingAnalyzer
 
 index_dir = 'index'
 raw_events = []
 
-with open('data/data_v3.json', 'r') as file:
-    file_content = file.readline()
+with open('data/data.json', 'r') as file:
+    file_content = file.read()
     raw_events = json.loads(file_content)
     
 # INDEXING
@@ -20,8 +21,8 @@ schema = Schema(
     doc_content=TEXT(analyzer=StemmingAnalyzer(), stored=True),
     title=STORED(),
     description=STORED(),
-    location=STORED(),
-    date=STORED(),
+    doc_location=TEXT(analyzer=StemmingAnalyzer(), stored=True),
+    date=DATETIME(stored=True),
     url=STORED(),
     is_recurring=STORED(),
     source=STORED()
@@ -36,8 +37,8 @@ for event in raw_events:
         doc_content=f'${event["title"]} ${event["description"]}',
         title=event['title'],
         description=event['description'],
-        location=event['location'],
-        date=event['date'],
+        doc_location=f'doc{event["location"]}',
+        date=dateparser.parse(event['date']),
         url=event['link'],
         is_recurring=event['recurring'] != '',
         source=event['source']
